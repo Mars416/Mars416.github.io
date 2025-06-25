@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Alvarez Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="resume">
+        <header>
+         <nav><img src="image.jpg" alt="Alvarez family coat of arms" width="100" height= "100">
+            <ul>
+                <li><a href="index.html">Resume</a></li>
+                <li><a href="coverletter.html">Cover Letter</a></li>
+                <li><a href="careergoals.html">Career Goals</a></li>
+            </ul>
+            </nav>
+            <h1><span style="color:maroon">Mario Alvarez</span></h1>
+            <p>Las Vegas, NV</p>
+            <p>Email: <mark>malvare3@wgu.edu</mark> | Phone: (702) 553 7460</p>
+        </header>
+<main>
+    <article>
+        <section>
+            <h2>Summary</h2>
+            <p>I am a determined individual with experience in HVAC applications, customer service and warehouse environments.
+                 Strong abilities in troubleshooting, diagnostics, repair, maintenance, and attention to detail. Skills in HTML, CSS and JS.
+            </p>
+            <hr>
+            <p>
+                 Posess the abiity to lead a team and problem solve to find efficient solution.
+                 Excellent bilingual communication (Spanish & English) and customer service skills. 
+                 Quick learner, adaptable, and effective in both independent and team settings.
+            </p>
+        </section>
+    </article>
+        <section>
+            <h2>Work Experience</h2>
+
+            <div class="job">
+                <h3>Lead Inkjet Operator</h3>
+                <p><strong>Amazon MOD Facility</strong> – Las Vegas, NV | <em>August 2023 – Present</em></p>
+                <ul>
+                    <li>Lead inkjet team and ensure timely work production</li>
+					<li>Repair paper web breaks and re-web printers</li>
+                    <li>Maintain inkjet printers clean, stocked with necessary chemicles and paper.
+                    <li>Monitor book block quality</li>
+                    <li>Clear paper and tote jams in printers and conveyence</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>HVAC Technician</h3>
+                <p><strong>YES! Air Conditioning</strong> – Las Vegas, NV | <em>2021 – August 2023</em></p>
+                <ul>
+                    <li>Troubleshoot and diagnose HVAC units in commercial and residential settings</li>
+                    <li>Develop and recommend client-focused solutions within budget and schedule</li>
+                    <li>Perform preventative maintenance and equipment installation</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>House Person</h3>
+                <p><strong>Treasure Island</strong> – Las Vegas, NV | <em>2015 – June 2021</em></p>
+                <ul>
+                    <li>Provided excellent customer service</li>
+                    <li>Maintained cleanliness and assisted guests</li>
+                    <li>Adhered to safety procedures</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Universal EPA Certification in HVAC</strong> – January 2020</li>
+                <li><strong>HVAC Certification</strong>, National Technical Institute – Las Vegas, NV | 2019 – 2020</li>
+                <li><strong>High School Diploma</strong>, Burk Horizon Southwest Sunset High School – Las Vegas, NV | 2012 – 2013</li>
+            </ul>
+        </section>
+<section>
+        <table>
+            <caption><strong>Skills</strong></caption>
+            <ul class="skills">
+                <tr>
+                    <td>HVAC/R Service </td>
+                    <td>Technician Experience</td>
+                    <td>Electrical wiring</td>
+                </tr>
+                    <td>troubleshooting</td>
+                    <td>Low Voltage</td>
+                    <td>Schematics</td>
+                </tr>
+                <tr>
+                    <td>Preventative maintenance</td>
+                    <td>Customer service</td>
+                    <td>Bilingual (English & Spanish)</td>
+                </tr>
+                <tr>
+                    <td>Team player</td>
+                    <td>Hand tools</td>
+                    <td>Leadership</td>
+            </ul>
+        </table>
+    </section>
+
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li id="language">English – Expert</li>
+                <li id="language">Spanish – Fluent</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Certifications and Licenses</h2>
+            <ul>
+                <li>EPA Universal Certification – December 2019 – Present</li>
+                <li>HVAC Certification – December 2019 – Present</li>
+                <li>IC3 Certification – January 2013 – Present</li>
+                <li>Forklift Certified</li>
+            </ul>
+        </section>
+</main>
+ 
+    <footer>
+        <strong><em>Mario Alvarez</em></strong><em>
+            <div id="current-date"></div>
+<script>
+    const today = new Date();
+
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    const year = today.getFullYear();
+
+    const formattedDate = `${month}/${day}/${year}`;
+
+    document.getElementById("current-date").textContent = formattedDate;
+  </script>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Alvarez Career Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <div class="goals">
+    <header><img src="image.jpg" alt="Alvarez family coat of arms" width="100" height= "100">
+        <nav>
+        <ul>
+            <li><a href="index.html">Resume</a></li>
+            <li><a href="coverletter.html">Cover Letter</a></li>
+            <li><a href="careergoals.html">Career Goals</a></li>
+        </ul>
+        </nav>
+        <h1><span style="color:maroon">Mario Alvarez</span></h1>
+        <p>Las Vegas, NV</p>
+        <p>Email: <mark>malvare3@wgu.edu</mark> | Phone: (702) 553 7460</p>
+    </header>
+<main>
+    <h2>My Career Goals</h2>
+    <section>
+    <p>Short-Term Goals
+<br>
+I am currently pursuing a Bachelor of Science in Software Engineering (BSSE) and expect to graduate by early 2027. 
+My primary focus during this time is to build a strong foundation in software design, algorithms, and system architecture. 
+I aim to gain experience through internships or entry-level roles in back-end development to apply what I've learned and grow within a professional environment.</p>
+
+<p>Mid-Term Goals
+<br>
+After earning my degree, I plan to begin my professional career as a back-end developer for a technology company that creates unique mobile products. 
+I also want to expand my skills into front-end development so I can contribute to full-stack projects and become a more versatile developer.</p>
+
+<p>Long-Term Vision
+<br>
+My ultimate goal is to be part of a team that designs and develops innovative mobile phone technology. 
+I'm especially passionate about the idea of creating a modern smartphone that includes a physical QWERTY keyboard. Blending today's powerful software with tactile, user-friendly hardware. 
+Whether working with a major tech firm or a startup, I want to help push the boundaries of mobile innovation.
+    </p>
+
+    <h3>More about me.</h3>
+    <p><audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+     </p>
+     <p>
+      <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+     </p>
+    </section>
+    <section>
+      <h2>Contact Me</h2>
+      <form action="https://www.mario_a@icloud.com" method="post">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <p>Best time to contact you:</p>
+        <input type="radio" id="am" name="contact_time" value="am">
+        <label for="am">A.M.</label><br>
+        <input type="radio" id="pm" name="contact_time" value="pm">
+        <label for="pm">P.M.</label><br>
+        <input type="radio" id="any" name="contact_time" value="anytime">
+        <label for="any">Anytime</label><br><br>
+
+        <label for="contact_method">Preferred contact method:</label>
+        <select id="contact_method" name="contact_method">
+          <option value="phone">Phone</option>
+          <option value="email">Email</option>
+          <option value="text">Text</option>
+        </select><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <hr>
+
+</main>
+    <footer>
+        <em>Mario Alvarez</em>
+            <div id="current-date"></div>
+<script>
+    const today = new Date();
+
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    const year = today.getFullYear();
+
+    const formattedDate = `${month}/${day}/${year}`;
+
+    document.getElementById("current-date").textContent = formattedDate;
+  </script>
+        </footer>
+</body>
+</html>

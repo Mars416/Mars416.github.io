@@ -1,0 +1,87 @@
+*
+{ font-family: Courier, monospaced;
+}
+
+mark{
+    color: white;
+    background-color: red;
+}
+body {
+    background-color: lightgray;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.resume {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+}
+
+.letter {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+}
+
+.goals {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+nav ul {
+  text-align: center;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  background-color: navy;
+  padding: 10px;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    font: white;
+}
+
+table, th, td { 
+   border: 2px solid gray; 
+} 
+
+#language { color:navy; }
+
+a:link {
+  color:white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: gray;
+}
